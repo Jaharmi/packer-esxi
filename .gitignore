@@ -1,5 +1,5 @@
 # variables files
-variables.json
+esxi.json
 
 # log files
 *.log
