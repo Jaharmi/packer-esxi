@@ -1,0 +1,5 @@
+# variables files
+variables.json
+
+# log files
+*.log
