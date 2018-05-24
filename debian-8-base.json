@@ -22,7 +22,7 @@
     "boot_command": [
       "<esc><wait>",
       "install ",
-      "preseed/url=https://s3.eu-central-1.amazonaws.com/preseed.juglas.name/debian.cfg ",
+      "preseed/url=http://s3.eu-central-1.amazonaws.com/preseed.juglas.name/debian.cfg ",
       "debian-installer=en_US auto=true locale=en_US kbd-chooser/method=us ",
       "netcfg/get_hostname={{ .Name }} ",
       "netcfg/get_domain=nullgrid.net ",
