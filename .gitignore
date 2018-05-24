@@ -3,3 +3,6 @@ esxi.json
 
 # log files
 *.log
+
+# cache
+packer_cache/
