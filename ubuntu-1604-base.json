@@ -7,8 +7,8 @@
     "tools_upload_flavor": "linux",
     "headless": false,
 
-    "iso_url": "http://releases.ubuntu.com/xenial/ubuntu-16.04-server-amd64.iso",
-    "iso_checksum": "b8b172cbdf04f5ff8adc8c2c1b4007ccf66f00fc6a324a6da6eba67de71746f6",
+    "iso_url": "http://releases.ubuntu.com/xenial/ubuntu-16.04.4-server-amd64.iso",
+    "iso_checksum": "0a03608988cfd2e50567990dc8be96fb3c501e198e2e6efcb846d89efc7b89f2",
     "iso_checksum_type": "sha256",
     "vnc_disable_password": "True",
 
