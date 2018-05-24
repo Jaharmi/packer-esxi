@@ -9,7 +9,7 @@ They assume that it's possible to fetch an IP through DHCP on the primary (`VM
 Network`) network. If this isn't the case, you can adjust the [boot command to
 set a static IP][].
 
-This example repo comes out of [this post I wrote on how to use Packer with
+This example repo comes out of [this post on how to use Packer with
 VMware ESXi][post].
 
 ## Usage
