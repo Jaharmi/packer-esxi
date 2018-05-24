@@ -15,7 +15,8 @@ VMware ESXi][post].
 ## Usage
 
 ```sh
-packer build -var-file variables.json ubuntu-1604-base.json
+cp variables.json esxi.json
+packer build -var-file esxi.json ubuntu-1604-base.json
 ```
 
 Ensure that `variables.json` contains valid values.
