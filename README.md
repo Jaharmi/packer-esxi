@@ -16,10 +16,13 @@ VMware ESXi][post].
 
 ```sh
 cp variables.json esxi.json
-packer build -var-file esxi.json ubuntu-1604-base.json
 ```
 
-Ensure that `variables.json` contains valid values.
+Ensure that `esxi.json` contains valid values.
+
+```sh
+packer build -var-file esxi.json ubuntu-1604-base.json
+```
 
 ## Author
 
