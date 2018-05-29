@@ -12,8 +12,8 @@
     "iso_checksum": "dde07d37647a1d2d9247e33f14e91acb10445a97578384896b4e1d985f754cc1",
     "iso_checksum_type": "sha256",
 
-    "ssh_username": "nullgrid",
-    "ssh_password": "nullgrid",
+    "ssh_username": "owentis",
+    "ssh_password": "owentis",
     "ssh_timeout": "15m",
 
     "disk_type_id": "thin",
@@ -34,7 +34,7 @@
         "initrd=/install/initrd.gz -- <enter>"
     ],
 
-    "shutdown_command": "echo 'shutdown -P now' > shutdown.sh; echo 'nullgrid'|sudo -S sh 'shutdown.sh'",
+    "shutdown_command": "echo 'shutdown -P now' > shutdown.sh; echo 'owentis'|sudo -S sh 'shutdown.sh'",
 
     "remote_type": "esx5",
     "remote_host": "{{user `esxi_host`}}",
@@ -55,7 +55,7 @@
         "scripts/open-vm-tools.sh"
       ],
 
-      "execute_command": "echo 'nullgrid' | {{ .Vars }} sudo -E -S bash '{{ .Path }}'"
+      "execute_command": "echo 'owentis' | {{ .Vars }} sudo -E -S bash '{{ .Path }}'"
     }
   ]
 }

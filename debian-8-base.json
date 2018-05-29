@@ -12,8 +12,8 @@
     "iso_checksum": "896cc42998edf65f1db4eba83581941fb2a584f2214976432b841af96b17ccda",
     "iso_checksum_type": "sha256",
 
-    "ssh_username": "nullgrid",
-    "ssh_password": "nullgrid",
+    "ssh_username": "owentis",
+    "ssh_password": "owentis",
     "ssh_timeout": "15m",
 
     "disk_type_id": "thin",
@@ -24,14 +24,14 @@
       "preseed/url=http://s3.eu-central-1.amazonaws.com/preseed.juglas.name/debian.cfg ",
       "debian-installer=en_US auto=true locale=en_US kbd-chooser/method=us ",
       "netcfg/get_hostname={{ .Name }} ",
-      "netcfg/get_domain=nullgrid.net ",
+      "netcfg/get_domain=juglas.name ",
       "fb=false debconf/frontend=noninteractive ",
       "console-setup/ask_detect=false console-keymaps-at/keymap=us ",
       "keyboard-configuration/xkb-keymap=us ",
       "<enter>"
     ],
 
-    "shutdown_command": "echo 'shutdown -h now' > shutdown.sh; echo 'nullgrid'|sudo -S sh 'shutdown.sh'",
+    "shutdown_command": "echo 'shutdown -h now' > shutdown.sh; echo 'owentis'|sudo -S sh 'shutdown.sh'",
 
     "remote_type": "esx5",
     "remote_host": "{{user `esxi_host`}}",
@@ -52,7 +52,7 @@
         "scripts/open-vm-tools.sh"
       ],
 
-      "execute_command": "echo 'nullgrid' | {{ .Vars }} sudo -E -S bash '{{ .Path }}'"
+      "execute_command": "echo 'owentis' | {{ .Vars }} sudo -E -S bash '{{ .Path }}'"
     }
   ]
 }
