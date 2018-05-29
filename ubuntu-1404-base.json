@@ -4,6 +4,7 @@
     "vm_name": "ubuntu-1404-base",
     "type": "vmware-iso",
     "guest_os_type": "ubuntu-64",
+    "output_directory": "ubuntu-1404-base",
     "tools_upload_flavor": "linux",
     "headless": true,
     "vnc_disable_password": true,
