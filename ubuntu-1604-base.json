@@ -56,7 +56,8 @@
     {
       "type": "shell",
       "scripts": [
-        "scripts/open-vm-tools.sh"
+        "scripts/open-vm-tools.sh",
+        "scripts/cloud-init.sh"
       ],
 
       "execute_command": "echo 'owentis' | {{ .Vars }} sudo -E -S bash '{{ .Path }}'"
