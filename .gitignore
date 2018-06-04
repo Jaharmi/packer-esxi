@@ -6,3 +6,6 @@ esxi.json
 
 # cache
 packer_cache/
+
+# output directories
+*-base/
