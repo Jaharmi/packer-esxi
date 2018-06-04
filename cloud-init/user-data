@@ -1,0 +1,12 @@
+#cloud-config
+# Add users to the system. Users are added after groups are added.
+users:
+  - name: bjuglas
+    gecos: Bertrand Juglas
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    ssh_import_id: None
+    lock_passwd: true
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDgKSfo4xXQpJd5oY+JX4ppkoefnqsUHVl42FVtzyVjnlVmIWZCHfWStnkCcQUZwbrxn81YmLKu4ozElmWQk61tmL6zzC4ESX46kdSkn/KbgPiFg/vmAOQonjWH/Ngke0bdhTgbPs/EDcjawbHfBw86zJXHVlvfIHXAFJwYSa7xBrR/9YfrF4lwCLtnjCyF+VLcN82t4QYfd3H3Yit7c/OxhbEIcuSdENerOC9MWALteNnGCwLDaYJOLfuWI8v4jSp5gBOajghZtQH+62slqongKsfP+qGpwEjc5fkKFuw9nQwKJnIN86NxKSPRfkZcjLdLL3MAJaCXZ6B8LErf6RXT
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChgEcVgCPXVq5ewQYlTYTfXQ6miIybgMDIIoTAsq0qnmhdZDkqo5vZeRkQF3/7yjOz/APyMRHbG0Ka0chlTnLVcTtOzlWqiu1/k5f0XQI6xVrnb26hPRlUD8EXyarSYb6oUY8R7gslebt8qlUhIkA1tkoo3xJaHGCOG6B8j9QzyhLUZFIlxTQG20hVJ0V5s3TujcZqGeQtLp63Jxd+CDqhZ38NNmKb9B481PqdkPd85f32I/wSis068y+5ROvirXU96H/4Ke1lAmLwXjXS6S4iNshlt6e5/n51JWLO7BwXccjQ8kRCstlj5ShMGlezY07dPsiRlfnovivQAN89rEUP
